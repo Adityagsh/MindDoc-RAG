@@ -1,4 +1,4 @@
-from langchain.vectorstores import Chroma  #To create and manage the vector database 
+from langchain_community.vectorstores import Chroma  #To create and manage the vector database 
 from langchain.document_loaders import PyPDFLoader  # To load PDF document
 from langchain.document_loaders import Docx2txtLoader  # To load DOCX document
 from langchain.embeddings import HuggingFaceEmbeddings  # To convert text into embeddings [numerical vector]
@@ -41,4 +41,5 @@ def load_vectorstore(uploaded_files):
         )
         vectorstore.persist()
     
+
     return vectorstore
