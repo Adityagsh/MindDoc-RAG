@@ -1,13 +1,11 @@
 streamlit
-PyPDF2
-python-docx
-langchain==0.1.0
-langchain-community==0.0.10
-langchain-groq==0.0.1
-chromadb==0.4.22
-sentence-transformers==2.2.2
-python-dotenv
-pypdf
+langchain
 langchain-community
+chromadb
+pypdf
+sentence-transformers==2.2.2
+torch>=2.0.0
+transformers>=4.30.0
+huggingface-hub==0.23.0
 
 
