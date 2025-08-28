@@ -7,4 +7,7 @@ langchain-groq==0.0.1
 chromadb==0.4.22
 sentence-transformers==2.2.2
 python-dotenv
+pypdf
+langchain-community
+
 
